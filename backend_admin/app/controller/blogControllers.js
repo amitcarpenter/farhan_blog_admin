@@ -226,7 +226,6 @@ const getBlogs = async (req, res) => {
 // Get paginated blogs with search
 const getBlogsbyId = async (req, res) => {
   const blogId = req.params.id;
-
   try {
     const blog = await Blog.findById(blogId);
     if (!blog) {

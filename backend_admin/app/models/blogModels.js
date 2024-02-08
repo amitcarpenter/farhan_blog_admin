@@ -19,11 +19,11 @@ const blogSchema = new mongoose.Schema({
   },
   author: {
     type: String,
-    default: "",
+    default: "malik farhan",
   },
   category: {
     type: String,
-    default: "",
+    default: "real estate",
   },
   post_time: {
     type: Date,
