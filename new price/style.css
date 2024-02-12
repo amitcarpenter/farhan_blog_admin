@@ -1,4 +1,10 @@
 /********** Template CSS **********/
+
+body {
+  background-color: #FFFFFF;
+}
+
+
 :root {
   --primary: #c10900;
   --secondary: #ff6922;
@@ -198,7 +204,7 @@
   }
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
   color: #dddddd;
 }
 
@@ -425,4 +431,25 @@
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+}
+
+
+
+/* ----------------------------------------------------amit  */
+
+
+.amit-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.amit-button {
+  border: none;
+  background-color: #c10900 !important;
+}
+
+.amit-icon {
+  color: #c10900 !important;
 }
